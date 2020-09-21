@@ -44,8 +44,8 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 25%;
-  margin-top: 5%;
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
 .basic h1 {
@@ -62,13 +62,13 @@ align-items: center;
 }
 
 .favMovies {
-  width: 100%;
+  width: 120%;
   height: 50%;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 15%;
-  margin-top: 10%;
+  margin-left: 100px;
+  margin-top: 60px;
 }
 
 .favMovies ol {
@@ -82,7 +82,7 @@ align-items: center;
 }
 
 .favMovies li {
-  margin-bottom: 1%;
+  margin-bottom: 10px;
 }
 
 .page {
