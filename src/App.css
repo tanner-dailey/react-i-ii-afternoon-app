@@ -33,6 +33,43 @@ align-items: center;
 .info {
   width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.basic h1 {
+  font-size: 35px;
+  text-decoration: underline #5f98ed;
+}
+
+.basic h2 {
+  margin-bottom: 0;
+}
+
+.favMovies {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.favMovies ol {
+  font-size: 20px;
+  margin-left: 7%;
+  margin-top: 0;
 }
 
 .page {
