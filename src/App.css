@@ -6,13 +6,13 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: #302b2b;
+  background-color: 	#222222;
 }
 
 .App-header {
 width: 100%;
 height: 9%;
-background-color:#5f98ed;
+background-color:#34a5da;
 display: flex;
 align-items: center;
 }
@@ -50,7 +50,7 @@ align-items: center;
 
 .basic h1 {
   font-size: 35px;
-  text-decoration: underline #5f98ed;
+  text-decoration: underline #34a5da;
 }
 
 .basic h2 {
