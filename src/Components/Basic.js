@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import data from '../data';
 
 class Basic extends Component {
-    constructor(props) {
+    constructor() {
         super();
         this.state = {
             name: `${data[0].name.first} ${data[0].name.last}`,
@@ -25,11 +25,11 @@ class Basic extends Component {
 
     render(){
         return(
-            <div>
+            <div className='basic'>
                 <h1>{this.state.name}</h1>
-                <h2><b>From: </b>{this.state.from}</h2>
-                <h2><b>Job Title: </b>{this.state.title}</h2>
-                <h2><b>Employer: </b>{this.state.employer}</h2>
+                <h2>From: <b>{this.state.from}</b></h2>
+                <h2>Job Title: <b>{this.state.title}</b></h2>
+                <h2>Employer: <b>{this.state.employer}</b></h2>
             </div>
         )
     }

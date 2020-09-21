@@ -35,6 +35,7 @@ align-items: center;
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 
 .basic {
@@ -43,7 +44,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 15%;
+  margin-left: 25%;
   margin-top: 5%;
 }
 
@@ -56,6 +57,10 @@ align-items: center;
   margin-bottom: 0;
 }
 
+.basic b {
+  font-weight: 500;
+}
+
 .favMovies {
   width: 100%;
   height: 50%;
@@ -63,13 +68,21 @@ align-items: center;
   flex-direction: column;
   align-items: start;
   margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .favMovies ol {
   font-size: 20px;
   margin-left: 7%;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-weight: 500;
+}
+
+.favMovies li {
+  margin-bottom: 1%;
 }
 
 .page {

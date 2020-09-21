@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Page from './Components/Movies';
+import Movies from './Components/Movies';
 import Basic from './Components/Basic';
  
 
@@ -8,7 +8,6 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      movies: [],
       id: 1
     }
   }
@@ -21,12 +20,12 @@ class App extends Component {
       </header>
       <section className='card'>
         <div className='info'>
-          <div className='basic'>
+          <div>
             <Basic userId={this.state.id} />
           </div>
           <div className='favMovies'>
             <h1>Favorite Movies:</h1>
-            {/* <Movies userId={this.state.id} /> */}
+            <Movies userId={this.state.id} />
           </div>
         </div>
         <div className='page'>
